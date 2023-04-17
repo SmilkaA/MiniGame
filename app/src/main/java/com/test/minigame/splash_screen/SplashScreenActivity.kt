@@ -9,7 +9,7 @@ import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
-import com.test.minigame.StartGameActivity
+import com.test.minigame.gameplay.StartGameActivity
 import com.test.myapplication.R
 
 @SuppressLint("CustomSplashScreen")

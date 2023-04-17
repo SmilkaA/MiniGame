@@ -2,4 +2,7 @@
     <string name="app_name">Mini Game</string>
     <string name="play">PLAY</string>
     <string name="scores">SCORES</string>
+    <string name="score_no">№</string>
+    <string name="score_points_title">POINTS</string>
+    <string name="score_created_at_title">CREATED AT</string>
 </resources>
