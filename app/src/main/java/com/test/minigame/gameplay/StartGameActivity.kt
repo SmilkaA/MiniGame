@@ -45,7 +45,7 @@ class StartGameActivity : AppCompatActivity() {
             if (!statusParam) {
                 supportFragmentManager.beginTransaction()
                     .addToBackStack(PlayingFragment::class.java.name)
-                    .add(R.id.main_container, ScoresFragment()).commit()
+                    .add(R.id.main_container, PlayingFragment()).commit()
             } else {
                 gameLogo.visibility = View.GONE
                 playButton.visibility = View.GONE
