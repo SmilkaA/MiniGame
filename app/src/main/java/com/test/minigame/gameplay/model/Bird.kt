@@ -1,10 +1,9 @@
 package com.test.minigame.gameplay.model
 
 class Bird {
-    private var x: Int = 50
-    private var y: Int = 500
-    private var isAlive: Boolean = true
-    var millis = 0
+    var x: Float = 50F
+    var y: Float = 500F
+    var isAlive: Boolean = true
 
     fun updatePosition(dy: Int) {
         y += dy
