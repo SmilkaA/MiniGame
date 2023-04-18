@@ -1,4 +1,4 @@
-package com.test.minigame.gameplay.scores.model
+package com.test.minigame.gameplay.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

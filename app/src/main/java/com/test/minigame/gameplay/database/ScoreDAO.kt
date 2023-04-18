@@ -1,10 +1,10 @@
-package com.test.minigame.gameplay.scores.database
+package com.test.minigame.gameplay.database
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.test.minigame.gameplay.scores.model.ScoreModel
+import com.test.minigame.gameplay.model.ScoreModel
 import kotlinx.coroutines.flow.Flow
 
 @Dao

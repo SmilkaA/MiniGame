@@ -1,11 +1,10 @@
-package com.test.minigame.gameplay.scores.database
+package com.test.minigame.gameplay.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.test.minigame.gameplay.scores.model.ScoreModel
-import kotlinx.coroutines.CoroutineScope
+import com.test.minigame.gameplay.model.ScoreModel
 
 @Database(entities = [ScoreModel::class], version = 1)
 abstract class ScoreDatabase:RoomDatabase() {

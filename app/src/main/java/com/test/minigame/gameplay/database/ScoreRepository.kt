@@ -1,7 +1,7 @@
-package com.test.minigame.gameplay.scores.database
+package com.test.minigame.gameplay.database
 
 import androidx.annotation.WorkerThread
-import com.test.minigame.gameplay.scores.model.ScoreModel
+import com.test.minigame.gameplay.model.ScoreModel
 import kotlinx.coroutines.flow.Flow
 
 class ScoreRepository(private val scoreDao: ScoreDao) {

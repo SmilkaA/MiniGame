@@ -1,4 +1,4 @@
-package com.test.minigame.gameplay.scores
+package com.test.minigame.gameplay.fragments
 
 import androidx.lifecycle.ViewModel
 
